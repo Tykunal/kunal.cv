@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem;
+    color: #03C988;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #379683;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #8ee4af;  
+}
+p{
+    line-height: 2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 4%;
+    border-color: #B2B2B2;
+    margin: 100px auto;
+}
+a{
+    color: #05386b;
+    margin: auto 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+
+/* IDS */
+
+#contact-me{
+    margin-bottom: 70px;
+}
+#top{
+    background-color: #5cdb95;
+    padding: 80px 0 80px 0;
+}
+#bottom-container{
+    background-color: #5cdb95;
+    padding-top: 40px;
+}
+#navbar-id {
+    text-align: right;
+}
+/* classes */
+
+.top-desc {
+    color: white;
+    font-weight: lighter;
+}
+.top-title {
+    font-size: 150px;
+}
+.develop{
+    font-weight: bold;
+}
+.footer-link {
+    font-weight: lighter;
+}
+.profile-desc{
+width: 30%;
+margin: auto;
+}
+.skill-row{
+width: 50%;
+margin: 100px auto;
+text-align: left;
+line-height: 2;
+}
+.g-i-t {
+    font-size: 100px;
+}
+.copyright{
+    color: white;
+    padding: 20px 0;
+    font-size: 0.75rem;
+}
+.skills-size {
+    font-size: 100px;
+}
+.contact-desc{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* images */
+
+.profile-pic{
+    width: 25%;
+    margin-top: 100px;
+}
+.coding{
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+}
+.writer{
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+}
+.blockchain{
+    float: right;
+    width: 25%;  
+    margin-left: 20px;
+}
+
+/* navbar */
+.navbar {
+    padding: 0 0 4.5rem;
+  }
+.navbar-brand{
+    font-family: 'Great Vibes', cursive ;
+    font-size: 2rem;
+}
+.toggler {
+    background-color: #05386b;
+}
+.nav-item {
+    padding: 0 18px;
+  }
